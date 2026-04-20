@@ -11,4 +11,10 @@ public class TestController {
 
         return "Hello from controller";
     }
+
+    @GetMapping("/Features")
+    public String returnFeatures(){
+
+        return "Hello from features";
+    }
 }
