@@ -29,4 +29,10 @@ public class TestController {
 
         return "UiAdded";
     }
+
+    @GetMapping("/user-details")
+    public String userdetails(){
+
+        return "user details";
+    }
 }
