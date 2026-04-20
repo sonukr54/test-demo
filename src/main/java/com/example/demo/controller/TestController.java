@@ -17,4 +17,10 @@ public class TestController {
 
         return "Hello from features";
     }
+
+    @GetMapping("/loginFixedout")
+    public String loginFixed(){
+
+        return "login fixed";
+    }
 }
