@@ -23,4 +23,10 @@ public class TestController {
 
         return "login fixed";
     }
+
+    @GetMapping("/ui-added")
+    public String uiAdded(){
+
+        return "UiAdded";
+    }
 }
