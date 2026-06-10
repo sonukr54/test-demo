@@ -19,6 +19,7 @@ public class Students {
     private String country;
     private int passportNumber;
     private int adhaarNumber;
+    private int houseNumber;
 
     public String getName() {
         return name;
