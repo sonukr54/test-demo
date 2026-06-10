@@ -16,6 +16,7 @@ public class Students {
     private int rollNo;
     private String address;
     private String city;
+    private String country;
 
     public String getName() {
         return name;
