@@ -20,6 +20,7 @@ public class Students {
     private int passportNumber;
     private int adhaarNumber;
     private int houseNumber;
+    private int roomNumber;
 
     public String getName() {
         return name;
