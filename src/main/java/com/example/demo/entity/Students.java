@@ -22,6 +22,7 @@ public class Students {
     private int houseNumber;
     private int roomNumber;
     private int pinCode;
+    private int areaCode;
 
     public String getName() {
         return name;
