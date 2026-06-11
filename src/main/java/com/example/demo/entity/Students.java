@@ -21,6 +21,7 @@ public class Students {
     private int adhaarNumber;
     private int houseNumber;
     private int roomNumber;
+    private int pinCode;
 
     public String getName() {
         return name;
